@@ -8,7 +8,7 @@ public class DatabaseConnection {
     
     private static final String URL = "jdbc:mysql://localhost:3306/sakila?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASS = "1138524433Dr.mysql";
+    private static final String PASS = "contrasenaroot";
     
     private static Connection connection;
 

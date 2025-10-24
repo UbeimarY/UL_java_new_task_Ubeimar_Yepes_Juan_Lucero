@@ -2,6 +2,7 @@ package com.ucc;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+
 import com.ucc.connection.DatabaseConnection;
 import com.ucc.model.Actor;
 import com.ucc.repository.ActorRepository;
@@ -13,8 +14,8 @@ public class Main {
         try (Connection conn = DatabaseConnection.getInstanceConnection()) {
             Actor actor = new Actor();
             actor.setActor_id(9999);
-            actor.setFirst_name("PepitoCode2");
-            actor.setLast_name("pepitoCode2");
+            actor.setFirst_name("JoseCode2");
+            actor.setLast_name("JoseCode2");
             
             IRepository repo = new ActorRepository();
             repo.save(actor);
